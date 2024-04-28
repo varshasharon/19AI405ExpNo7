@@ -14,7 +14,7 @@ recursively evaluates all possible moves and their potential outcomes, creating 
 ## Alpha-Beta pruning
 Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heuristic. It stops evaluating a move when it makes sure that it’s worse than a previously examined move. Such moves need not to be evaluated further. When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
 
-### Program:
+## Program:
 ```python
 import time
 class Game:
