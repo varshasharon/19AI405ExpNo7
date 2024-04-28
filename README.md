@@ -16,7 +16,6 @@ Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heu
 
 ### Program:
 ```python
-
 import time
 class Game:
     def __init__(self):
